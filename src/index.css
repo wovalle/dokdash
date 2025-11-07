@@ -1,0 +1,12 @@
+@import "../styles/globals.css";
+
+@layer base {
+  :root {
+    @apply font-sans;
+  }
+
+  body {
+    @apply min-h-screen min-w-[320px] bg-slate-950 text-slate-100 antialiased;
+  }
+}
+
